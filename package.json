@@ -1,0 +1,19 @@
+{
+  "name": "exo-tdd-ci",
+  "version": "1.0.0",
+  "description": "First steps with Travis CI",
+  "main": "exo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicBrassart/test-tdd-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoicBrassart/test-tdd-ci/issues"
+  },
+  "homepage": "https://github.com/LoicBrassart/test-tdd-ci#readme"
+}
