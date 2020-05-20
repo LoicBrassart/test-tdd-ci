@@ -1,3 +1,6 @@
 const assert = require("assert");
+const Calculator = require("./exo1");
 
-assert.equal(Math.max(1, 5, 9), 9);
+const calc = new Calculator();
+
+assert.equal(calc.add("1,2"), 3);

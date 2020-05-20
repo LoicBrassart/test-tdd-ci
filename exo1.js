@@ -3,8 +3,8 @@ class Calculator {
     const numbers = numbersString.split(",");
 
     return numbers.reduce((acc, number) => {
-      return acc + number;
+      return parseInt(acc) + parseInt(number);
     });
   }
 }
-export default Calculator;
+module.exports = Calculator;
